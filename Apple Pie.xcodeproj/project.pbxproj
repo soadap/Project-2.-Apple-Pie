@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C575B2921EEFF7C002C7F1A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C575B2821EEFF7C002C7F1A /* Game.swift */; };
+		4C64392B21F178320001EBB1 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64392A21F178320001EBB1 /* PlayerController.swift */; };
+		4C64392D21F1A16E0001EBB1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64392C21F1A16E0001EBB1 /* Player.swift */; };
+		4CBAEDF821F4FBB30070C438 /* FinalScoreContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAEDF721F4FBB30070C438 /* FinalScoreContoller.swift */; };
 		4CC4E1D021EEC8BE006AC171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4E1CF21EEC8BE006AC171 /* AppDelegate.swift */; };
-		4CC4E1D221EEC8BE006AC171 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4E1D121EEC8BE006AC171 /* ViewController.swift */; };
+		4CC4E1D221EEC8BE006AC171 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4E1D121EEC8BE006AC171 /* GameController.swift */; };
 		4CC4E1D521EEC8BE006AC171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4E1D321EEC8BE006AC171 /* Main.storyboard */; };
 		4CC4E1D721EEC8C1006AC171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4E1D621EEC8C1006AC171 /* Assets.xcassets */; };
 		4CC4E1DA21EEC8C1006AC171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4E1D821EEC8C1006AC171 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C575B2821EEFF7C002C7F1A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4C64392A21F178320001EBB1 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		4C64392C21F1A16E0001EBB1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4CBAEDF721F4FBB30070C438 /* FinalScoreContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScoreContoller.swift; sourceTree = "<group>"; };
 		4CC4E1CC21EEC8BE006AC171 /* Apple Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC4E1CF21EEC8BE006AC171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CC4E1D121EEC8BE006AC171 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CC4E1D121EEC8BE006AC171 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		4CC4E1D421EEC8BE006AC171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CC4E1D621EEC8C1006AC171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC4E1D921EEC8C1006AC171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				4CC4E1CF21EEC8BE006AC171 /* AppDelegate.swift */,
-				4CC4E1D121EEC8BE006AC171 /* ViewController.swift */,
+				4CC4E1D121EEC8BE006AC171 /* GameController.swift */,
 				4CC4E1D321EEC8BE006AC171 /* Main.storyboard */,
+				4CBAEDF721F4FBB30070C438 /* FinalScoreContoller.swift */,
+				4C64392A21F178320001EBB1 /* PlayerController.swift */,
 				4CC4E1D621EEC8C1006AC171 /* Assets.xcassets */,
 				4CC4E1D821EEC8C1006AC171 /* LaunchScreen.storyboard */,
 				4CC4E1DB21EEC8C1006AC171 /* Info.plist */,
+				4C575B2821EEFF7C002C7F1A /* Game.swift */,
+				4C64392C21F1A16E0001EBB1 /* Player.swift */,
 			);
 			path = "Apple Pie";
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC4E1D221EEC8BE006AC171 /* ViewController.swift in Sources */,
+				4CC4E1D221EEC8BE006AC171 /* GameController.swift in Sources */,
+				4C575B2921EEFF7C002C7F1A /* Game.swift in Sources */,
+				4C64392B21F178320001EBB1 /* PlayerController.swift in Sources */,
+				4C64392D21F1A16E0001EBB1 /* Player.swift in Sources */,
+				4CBAEDF821F4FBB30070C438 /* FinalScoreContoller.swift in Sources */,
 				4CC4E1D021EEC8BE006AC171 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
