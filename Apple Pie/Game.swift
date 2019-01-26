@@ -51,6 +51,7 @@ class Game {
     
     func playerGuessed(letter: Character) {
         guessedLetters.append(letter)
+        print(letter)
         if !word.contains(letter) {
             scoreArray[currentPlayer].attempts -= 1
             nextPlayer()

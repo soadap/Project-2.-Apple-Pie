@@ -50,8 +50,9 @@ class GameController: UIViewController {
             game.playerWins(game.currentPlayer, 50)
             newRound()
         } else {
-            game.playerGuessed(letter: " ")
+            game.playerGuessed(letter: "0")
         }
+        updateGameState()
     }
     
     override func viewDidLoad() {
@@ -81,7 +82,6 @@ class GameController: UIViewController {
         wordLetterArray = game.fomattedWord.map {"\($0)"}
         let wordWithSpace = wordLetterArray.joined(separator: " ")
         wordLabel.text = wordWithSpace
-
     }
     
     func updateGameState() {
