@@ -4,10 +4,10 @@ About: My realization of guided project #2 from book "App Development with Swift
 
 Screenshoots:
 <p align="center">
-  <img src="https://github.com/soadap/Project-2.-Apple-Pie/blob/master/Screenshoots/screenshoot1.png?raw=true" width="250" title="ss1">
-  <img src="https://github.com/soadap/Project-2.-Apple-Pie/blob/master/Screenshoots/screenshoot2.png?raw=true" width="250" title="ss2">
-  <img src="https://github.com/soadap/Project-2.-Apple-Pie/blob/master/Screenshoots/screenshoot3.png?raw=true" width="250" title="ss3">
-  <img src="https://github.com/soadap/Project-2.-Apple-Pie/blob/master/Screenshoots/screenshoot4.png?raw=true" width="250" title="ss4">
+  <img src="https://github.com/soadap/Project-2.-Apple-Pie/blob/master/Screenshoots/screenshoot1.png?raw=true" width="200" title="ss1">
+  <img src="https://github.com/soadap/Project-2.-Apple-Pie/blob/master/Screenshoots/screenshoot2.png?raw=true" width="200" title="ss2">
+  <img src="https://github.com/soadap/Project-2.-Apple-Pie/blob/master/Screenshoots/screenshoot3.png?raw=true" width="200" title="ss3">
+  <img src="https://github.com/soadap/Project-2.-Apple-Pie/blob/master/Screenshoots/screenshoot4.png?raw=true" width="200" title="ss4">
 </p>
 
 Description: Apple Pie game to guess the word.
