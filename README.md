@@ -17,6 +17,6 @@ Added all recommended features from "Strech Goal" section:
 - added a scoring feature that awards points for each correct guess and additional points for each successful word completion.
 - added ability for two players to play, switching turns after each incorrect guess.
 - added ability to guess the full word using the keyboard instead of guessing one letter at a time using the interface buttons.
-- added support letters with special characters. For example, the E button could check for "e" and "é" within a word.”
+- added support letters with special characters. For example, the E button could check for "e" and "é" within a word.
 
 Technologies Used: Interface Builder, Foundation & UIKIt, Swift, Xcode
